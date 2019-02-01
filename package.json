@@ -1,0 +1,38 @@
+{
+  "name": "css-2-react",
+  "version": "0.1.1",
+  "description": "Write React components from CSS",
+  "license": "MIT",
+  "keywords": [
+    "css-2-react",
+    "compiler",
+    "altjs"
+  ],
+  "homepage": "https://github.com/pixelbandito/css-2-react",
+  "repository": "git://github.com/pixelbandito/css-2-react.git",
+  "bugs": {
+    "url": "https://github.com/pixelbandito/css-2-react/issues"
+  },
+  "preferGlobal": true,
+  "author": {
+    "name": "Chris Garcia",
+    "email": "pixelbandito.js@gmail.com"
+  },
+  "bin": {
+    "css-2-react": "./bin/css-2-react"
+  },
+  "directories": {
+    "bin": "./bin",
+    "web": "./web",
+    "lib": "./lib",
+    "src": "./src"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">= 10.15.0"
+  },
+  "scripts": {
+    "postpublish": "echo BOOM"
+  },
+  "devDependencies": {}
+}
